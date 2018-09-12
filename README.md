@@ -54,7 +54,7 @@ hardware needed:
 
 
 
-#Customizing your webpages
+# Customizing your webpages
 
 1. Just locate the following directory
 > /usr/share/nginx/html/daloradius for the interface
