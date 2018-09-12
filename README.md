@@ -15,7 +15,17 @@ hardware needed:
 
 **Just follow the hardwareConfig.fzz file**
 
+# Knowledge requirements
 
+- basic Database querying
+
+- Web Programming
+
+- Basic to Mid level understanding of Linux Commands and filesystem
+
+- Python Programming
+
+- basic to mid level in Electronic Components
 
 # Software Setup:
 
@@ -26,44 +36,46 @@ hardware needed:
 (https://www.pihomeserver.fr/en/2016/09/15/transformer-raspberry-pi-hotspot-wi-fi-facilement-grace-a-script/)
 
 3. install git
-> apt-get install git
-
-> git clone https://github.com/pihomeserver/Pi-Hotspot.git
-
+```
+apt-get install git
+git clone https://github.com/pihomeserver/Pi-Hotspot.git
+```
 
 **RUN THE SCRIPT**
-
-> cd Pi-Hotspot
-
-> chmod +x pihotspot.sh
-
-> ./pihotspot.sh
-
+```
+cd Pi-Hotspot
+chmod +x pihotspot.sh
+./pihotspot.sh
+```
 4. setting up the codes
 > Put the python file "CoinSlot.py" and "autostart.sh" into the /home/pi directory. and and chmod +x
 
 5. clone the Adafruit_Python_CharLCD repository
-> sudo git clone https://github.com/adafruit/Adafruit_Python_CharLCD.git
-
+```
+sudo git clone https://github.com/adafruit/Adafruit_Python_CharLCD.git
+```
 6. Install mysql cursors
-> sudo apt install python-pip  
-> sudo pip install PyMySQL  
-
+```
+sudo apt install python-pip  
+sudo pip install PyMySQL  
+```
 7. automate everything. Go to the directory
-> cd .config/lxsession/LXDE-pi
+```
+cd .config/lxsession/LXDE-pi
 > sudo nano autostart
-
+```
 8. add the following code at the end of the file
-> /home/pi/autostart.sh
-
+```
+/home/pi/autostart.sh
+```
 
 
 # Customizing your webpages
 
 1. Just locate the following directory
-> /usr/share/nginx/html/daloradius for the daloradius interface
-
-> cd /usr/share/nginx/portal/ && sudo leafpad index.html for the webpages
-
+```
+cd /usr/share/nginx/html/daloradius for the daloradius interface
+cd /usr/share/nginx/portal/ && sudo leafpad index.html for the webpages
+```
 
 
