@@ -57,8 +57,9 @@ hardware needed:
 # Customizing your webpages
 
 1. Just locate the following directory
-> /usr/share/nginx/html/daloradius for the interface
-> cd /usr/share/nginx/portal/ && sudo leafpad index.html
+> /usr/share/nginx/html/daloradius for the daloradius interface
+
+> cd /usr/share/nginx/portal/ && sudo leafpad index.html for the webpages
 
 
 
