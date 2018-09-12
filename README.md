@@ -15,6 +15,8 @@ hardware needed:
 
 **Just follow the hardwareConfig.fzz file**
 
+it can be opened using fritzing(just google it)
+
 # Knowledge requirements
 
 - basic Database querying
