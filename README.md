@@ -45,11 +45,15 @@ hardware needed:
 5. clone the Adafruit_Python_CharLCD repository
 > sudo git clone https://github.com/adafruit/Adafruit_Python_CharLCD.git
 
-6. automate everything. Go to the directory
+6. Install mysql cursors
+> sudo apt install python-pip  
+> sudo pip install PyMySQL  
+
+7. automate everything. Go to the directory
 > cd .config/lxsession/LXDE-pi
 > sudo nano autostart
 
-7. add the following code at the end of the file
+8. add the following code at the end of the file
 > /home/pi/autostart.sh
 
 
